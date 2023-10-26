@@ -1,0 +1,276 @@
+[gd_scene load_steps=40 format=3 uid="uid://c4sryvnijoiv3"]
+
+[ext_resource type="Texture2D" uid="uid://ybjasu30erlu" path="res://Sprites/Floors/white-tiles.png" id="1_hexj8"]
+[ext_resource type="Texture2D" uid="uid://bnlwkv7pke0ah" path="res://Sprites/Walls/beige-walls.png" id="2_fjjf4"]
+[ext_resource type="Texture2D" uid="uid://bny85mgo0y4nu" path="res://Sprites/Borders/White/below-right-top-wall-white.png" id="3_0qd5t"]
+[ext_resource type="Texture2D" uid="uid://326e7kbx1md1" path="res://Sprites/Borders/White/straight-below-top-wal-whitel.png" id="4_vjf3r"]
+[ext_resource type="Texture2D" uid="uid://belbjplpr8div" path="res://Sprites/Borders/White/straight-left-side-white-border.png" id="5_askhx"]
+[ext_resource type="Texture2D" uid="uid://cc7dlqq03qkht" path="res://Sprites/Borders/White/straight-right-side-white.png" id="6_apeaa"]
+[ext_resource type="Texture2D" uid="uid://dsyjf1n3hmrvy" path="res://Sprites/Borders/White/straight-upper-top-white.png" id="7_anbl8"]
+[ext_resource type="Texture2D" uid="uid://cr1u75dqvw6tb" path="res://Sprites/Borders/White/upper-left-top-wall-white2.png" id="8_5yqrq"]
+[ext_resource type="Texture2D" uid="uid://dctcbfusghe0d" path="res://Sprites/Borders/White/upper-left-top-wall-white.png" id="9_qxxxv"]
+[ext_resource type="Texture2D" uid="uid://c1bgfboehn7af" path="res://Sprites/Borders/White/upper-right-top-wall-white.png" id="10_x68l3"]
+[ext_resource type="Texture2D" uid="uid://cop6q2wcmv4t0" path="res://Sprites/WallDecor/white-door.png" id="11_tddk6"]
+[ext_resource type="PackedScene" uid="uid://3p2o0v4lasb" path="res://Dahlia.tscn" id="12_c0uu2"]
+[ext_resource type="Texture2D" uid="uid://1qd0xihh0xtd" path="res://Sprites/Furniture/bathtub-white.png" id="13_olxii"]
+[ext_resource type="Texture2D" uid="uid://cc644qk76oord" path="res://Sprites/Furniture/double-bathroom-sink-spruce.png" id="14_my7r7"]
+[ext_resource type="Texture2D" uid="uid://cr7ynjcpttmrv" path="res://Sprites/WallDecor/Bathroom-med-cabinet.png" id="15_cupnu"]
+[ext_resource type="Texture2D" uid="uid://dgx657ggo8eg4" path="res://Sprites/Furniture/sage-bathroom-mat.png" id="16_bg2uu"]
+[ext_resource type="Texture2D" uid="uid://c2iyvihqq84q7" path="res://Sprites/WallDecor/sage-face-towel-hanging.png" id="17_fxtwy"]
+[ext_resource type="Texture2D" uid="uid://brjsqnydyn4t2" path="res://Sprites/Furniture/toilet.png" id="18_hbvom"]
+[ext_resource type="Texture2D" uid="uid://dev5fnttpfgpu" path="res://Sprites/Furniture/toilet-paper.png" id="19_f0nuq"]
+[ext_resource type="Texture2D" uid="uid://bs4xqm6hechpp" path="res://Sprites/Plants/spath-plant.png" id="20_vw2cr"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_npdve"]
+texture = ExtResource("1_hexj8")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_qlwh3"]
+tile_size = Vector2i(32, 32)
+sources/0 = SubResource("TileSetAtlasSource_npdve")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_p147x"]
+texture = ExtResource("2_fjjf4")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_0/angular_velocity = 0.0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -16, 16, -16, 16, 16, -16, 16)
+0:1/0 = 0
+0:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:1/0/physics_layer_0/angular_velocity = 0.0
+0:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -16, 16, -16, 16, 16, -16, 16)
+
+[sub_resource type="TileSet" id="TileSet_do4xv"]
+tile_size = Vector2i(32, 32)
+physics_layer_0/collision_layer = 1
+sources/0 = SubResource("TileSetAtlasSource_p147x")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8wxsu"]
+texture = ExtResource("3_0qd5t")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_0/angular_velocity = 0.0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -16, 16, -16, 16, 16, -16, 16)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_v7du7"]
+texture = ExtResource("4_vjf3r")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_0/angular_velocity = 0.0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(16, 16, -16, 16, -16, 6.25, 16, 5.75)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_fbarb"]
+texture = ExtResource("5_askhx")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_0/angular_velocity = 0.0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(16, 16, 8.875, 16, 9.375, -16, 16, -16)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_b1cp5"]
+texture = ExtResource("6_apeaa")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_0/angular_velocity = 0.0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9.125, 16, -16, 16, -16, -16, -8.875, -16)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_47o0k"]
+texture = ExtResource("7_anbl8")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_0/angular_velocity = 0.0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(16, -6.25, -16, -6.5, -16, -16, 16, -16)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qrqik"]
+texture = ExtResource("8_5yqrq")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_0/angular_velocity = 0.0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, 16, -16, -16, 16, -16, 16, -6.5, -9.125, -6.75, -9.125, 16)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_aa74r"]
+texture = ExtResource("9_qxxxv")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_0/angular_velocity = 0.0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, 16, -16, -16, -9.375, -16, -9.375, 6.25, 16, 6, 16, 16)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_q87ds"]
+texture = ExtResource("10_x68l3")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_0/angular_velocity = 0.0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(8.375, -6.5, -16, -6.5, -16, -16, 16, -16, 16, 16, 9.125, 16, 8.375, 16)
+
+[sub_resource type="TileSet" id="TileSet_f24xr"]
+tile_size = Vector2i(32, 32)
+physics_layer_0/collision_layer = 1
+sources/0 = SubResource("TileSetAtlasSource_8wxsu")
+sources/1 = SubResource("TileSetAtlasSource_v7du7")
+sources/2 = SubResource("TileSetAtlasSource_fbarb")
+sources/3 = SubResource("TileSetAtlasSource_b1cp5")
+sources/4 = SubResource("TileSetAtlasSource_47o0k")
+sources/5 = SubResource("TileSetAtlasSource_qrqik")
+sources/6 = SubResource("TileSetAtlasSource_aa74r")
+sources/7 = SubResource("TileSetAtlasSource_q87ds")
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4ybd5"]
+size = Vector2(113.5, 36.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_003uj"]
+size = Vector2(87.5, 23)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xhmn6"]
+size = Vector2(42, 32.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pusii"]
+size = Vector2(28.5, 20.5)
+
+[sub_resource type="GDScript" id="GDScript_uy00s"]
+script/source = "extends Area2D
+
+#@export var scene_to_load: String = \"\"
+##initial character position
+#var character_position: Vector2 = Vector2(0, 0)
+#@export var change_character_position: Vector2
+#@export var direction_facing: String = \"\"
+#signal scene_changed(change_character_position: Vector2)
+#
+#func _on_body_entered(body):
+#	if body is CharacterBody2D:
+#		if scene_to_load != \"\":
+#			change_character_position = body.global_position
+#			get_tree().change_scene_to_file(scene_to_load)
+#
+##getters
+#
+#func get_character_position() -> Vector2:
+#	return change_character_position
+#
+#func get_character_direction() -> String:
+#	return direction_facing
+
+
+"
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_b44xe"]
+size = Vector2(43.5, 20)
+
+[node name="DahliaBathroom" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(2, 2)
+
+[node name="Floor" type="TileMap" parent="."]
+tile_set = SubResource("TileSet_qlwh3")
+cell_quadrant_size = 32
+format = 2
+layer_0/tile_data = PackedInt32Array(393224, 0, 0, 393223, 0, 0, 458759, 0, 0, 458760, 0, 0, 524296, 0, 0, 524295, 0, 0, 524297, 0, 0, 458761, 0, 0, 393225, 0, 0, 524294, 0, 0, 458758, 0, 0, 393222, 0, 0, 524293, 0, 0, 458757, 0, 0, 393221, 0, 0, 524298, 0, 0, 458762, 0, 0, 393226, 0, 0, 524299, 0, 0, 458763, 0, 0, 393227, 0, 0, 524292, 0, 0, 458756, 0, 0, 393220, 0, 0, 327684, 0, 0, 327685, 0, 0, 327686, 0, 0, 327687, 0, 0, 327688, 0, 0, 327689, 0, 0, 327690, 0, 0, 327691, 0, 0, 262155, 0, 0, 262154, 0, 0, 262153, 0, 0, 262152, 0, 0, 262151, 0, 0, 262150, 0, 0, 262149, 0, 0, 262148, 0, 0)
+
+[node name="Wall" type="TileMap" parent="."]
+tile_set = SubResource("TileSet_do4xv")
+cell_quadrant_size = 32
+format = 2
+layer_0/tile_data = PackedInt32Array(131076, 0, 0, 196612, 0, 1, 131077, 0, 0, 196613, 0, 1, 131078, 0, 0, 196614, 0, 1, 131079, 0, 0, 196615, 0, 1, 131080, 0, 0, 196616, 0, 1, 131081, 0, 0, 196617, 0, 1, 131082, 0, 0, 196618, 0, 1, 131083, 0, 0, 196619, 0, 1, 65547, 0, 0, 65546, 0, 0, 65545, 0, 0, 65544, 0, 0, 65543, 0, 0, 65542, 0, 0, 65541, 0, 0, 65540, 0, 0)
+
+[node name="Borders" type="TileMap" parent="."]
+z_index = 5
+tile_set = SubResource("TileSet_f24xr")
+cell_quadrant_size = 32
+format = 2
+layer_0/tile_data = PackedInt32Array(524299, 0, 0, 524298, 1, 0, 524297, 1, 0, 524296, 1, 0, 524295, 1, 0, 524294, 1, 0, 524293, 1, 0, 458763, 2, 0, 393227, 2, 0, 327691, 2, 0, 262155, 2, 0, 196619, 2, 0, 131083, 2, 0, 458756, 3, 0, 393220, 3, 0, 327684, 3, 0, 262148, 3, 0, 196612, 3, 0, 131076, 3, 0, 65541, 4, 0, 65542, 4, 0, 65543, 4, 0, 65544, 4, 0, 65545, 4, 0, 65546, 4, 0, 65540, 5, 0, 524292, 6, 0, 65547, 7, 0)
+
+[node name="Door" type="Sprite2D" parent="."]
+position = Vector2(320, 89.6)
+scale = Vector2(1.253, 1.2)
+texture = ExtResource("11_tddk6")
+
+[node name="Dahlia" parent="." instance=ExtResource("12_c0uu2")]
+position = Vector2(258.5, 195)
+
+[node name="Bath" type="CharacterBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Bath"]
+position = Vector2(188.25, 263.75)
+shape = SubResource("RectangleShape2D_4ybd5")
+
+[node name="BathSprite" type="Sprite2D" parent="Bath"]
+position = Vector2(189, 261)
+scale = Vector2(1.71875, 1.65625)
+texture = ExtResource("13_olxii")
+
+[node name="Sink" type="CharacterBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sink"]
+position = Vector2(205.75, 133.5)
+shape = SubResource("RectangleShape2D_003uj")
+
+[node name="SinkSprite" type="Sprite2D" parent="Sink"]
+z_index = 2
+position = Vector2(205.5, 118)
+scale = Vector2(1.32813, 1.44444)
+texture = ExtResource("14_my7r7")
+
+[node name="MedicineCabnit" type="Sprite2D" parent="."]
+position = Vector2(205.5, 74.5)
+scale = Vector2(1.77083, 1.30556)
+texture = ExtResource("15_cupnu")
+
+[node name="SageRug" type="Sprite2D" parent="."]
+position = Vector2(205.5, 164.25)
+scale = Vector2(1.32812, 1.10937)
+texture = ExtResource("16_bg2uu")
+
+[node name="TowelOne" type="Sprite2D" parent="."]
+position = Vector2(259, 87)
+scale = Vector2(0.859375, 0.859375)
+texture = ExtResource("17_fxtwy")
+
+[node name="TowelTwo" type="Sprite2D" parent="."]
+position = Vector2(152.5, 87)
+scale = Vector2(0.859375, 0.859375)
+texture = ExtResource("17_fxtwy")
+
+[node name="Toilet" type="CharacterBody2D" parent="."]
+z_index = 4
+
+[node name="ToiletSprite" type="Sprite2D" parent="Toilet"]
+position = Vector2(337, 265)
+scale = Vector2(1.32813, 1.35938)
+texture = ExtResource("18_hbvom")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Toilet"]
+position = Vector2(337, 264.25)
+shape = SubResource("RectangleShape2D_xhmn6")
+
+[node name="ToiletPaper" type="Sprite2D" parent="."]
+position = Vector2(373.25, 240.75)
+scale = Vector2(0.96875, 0.96875)
+texture = ExtResource("19_f0nuq")
+
+[node name="Spath" type="CharacterBody2D" parent="."]
+
+[node name="SpathSprite" type="Sprite2D" parent="Spath"]
+position = Vector2(361.5, 113.5)
+texture = ExtResource("20_vw2cr")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Spath"]
+position = Vector2(360.75, 133.75)
+shape = SubResource("RectangleShape2D_pusii")
+
+[node name="LeaveBathroom" type="Area2D" parent="."]
+script = SubResource("GDScript_uy00s")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="LeaveBathroom"]
+position = Vector2(318.75, 123.5)
+shape = SubResource("RectangleShape2D_b44xe")
+
+[connection signal="body_entered" from="LeaveBathroom" to="LeaveBathroom" method="_on_body_entered"]

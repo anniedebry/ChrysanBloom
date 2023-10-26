@@ -1,0 +1,73 @@
+[gd_scene load_steps=11 format=3 uid="uid://bo8xtmjh0da15"]
+
+[ext_resource type="PackedScene" uid="uid://3p2o0v4lasb" path="res://Dahlia.tscn" id="1_8suxu"]
+[ext_resource type="Texture2D" uid="uid://dfxnmxdyhi231" path="res://Sprites/Floors/sidewalk.png" id="2_cn8hd"]
+[ext_resource type="Texture2D" uid="uid://b20djgyr2cslk" path="res://Sprites/Floors/GrassTilemap.png" id="3_4fo3w"]
+[ext_resource type="Texture2D" uid="uid://w51sbxyvdq6c" path="res://Sprites/Floors/sidewalk_road_tilemap.png" id="4_4l7y1"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lgvte"]
+texture = ExtResource("2_cn8hd")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_pchym"]
+tile_size = Vector2i(32, 32)
+sources/0 = SubResource("TileSetAtlasSource_lgvte")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vyggi"]
+texture = ExtResource("3_4fo3w")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_58nv2"]
+tile_size = Vector2i(32, 32)
+sources/0 = SubResource("TileSetAtlasSource_vyggi")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ystks"]
+texture = ExtResource("4_4l7y1")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+0:1/0 = 0
+0:2/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_vnbnh"]
+tile_size = Vector2i(32, 32)
+sources/1 = SubResource("TileSetAtlasSource_ystks")
+
+[node name="Outside" type="Node2D"]
+scale = Vector2(2, 2)
+
+[node name="Dahlia" parent="." instance=ExtResource("1_8suxu")]
+position = Vector2(259, 231)
+
+[node name="Sidewalk" type="TileMap" parent="."]
+tile_set = SubResource("TileSet_pchym")
+cell_quadrant_size = 32
+format = 2
+layer_0/tile_data = PackedInt32Array(458753, 0, 0, 458754, 0, 0, 458755, 0, 0, 458756, 0, 0, 458757, 0, 0, 458758, 0, 0, 458759, 0, 0, 458760, 0, 0, 458761, 0, 0, 458762, 0, 0, 458763, 0, 0, 458764, 0, 0, 458765, 0, 0, 458766, 0, 0, 458767, 0, 0, 458768, 0, 0, 458769, 0, 0, 458752, 0, 0)
+
+[node name="Grass" type="TileMap" parent="."]
+z_index = 1
+tile_set = SubResource("TileSet_58nv2")
+cell_quadrant_size = 32
+format = 2
+layer_0/tile_data = PackedInt32Array(393216, 131072, 2, 393217, 65536, 2, 393218, 131072, 2, 393219, 131072, 2, 393220, 131072, 2, 393221, 196608, 2, 393222, 131072, 2, 393223, 131072, 2, 393224, 131072, 2, 393225, 65536, 2, 393226, 131072, 2, 393227, 131072, 2, 393228, 196608, 2, 393229, 196608, 2, 393230, 131072, 2, 393231, 65536, 2, 393232, 131072, 2, 393233, 131072, 2, 524305, 196608, 2, 524304, 131072, 2, 524303, 131072, 2, 524302, 65536, 2, 524301, 131072, 2, 524300, 131072, 2, 524299, 131072, 2, 524298, 131072, 2, 524297, 131072, 2, 524296, 131072, 2, 524295, 196608, 2, 524294, 131072, 2, 524293, 131072, 2, 524292, 131072, 2, 524291, 131072, 2, 524290, 65536, 2, 524289, 131072, 2, 524288, 131072, 2, 327680, 131072, 2, 327681, 131072, 2, 327682, 131072, 2, 327683, 65536, 2, 327684, 131072, 2, 327685, 131072, 2, 327686, 131072, 2, 327687, 131072, 2, 327688, 131072, 2, 327689, 131072, 2, 327690, 131072, 2, 327691, 131072, 2, 327692, 196608, 2, 327693, 196608, 2, 327694, 131072, 2, 327695, 131072, 2, 327696, 131072, 2, 327697, 65536, 2)
+
+[node name="Road" type="TileMap" parent="."]
+tile_set = SubResource("TileSet_vnbnh")
+cell_quadrant_size = 32
+format = 2
+layer_0/tile_data = PackedInt32Array(589824, 1, 0, 589825, 1, 0, 589826, 1, 0, 589827, 1, 0, 589828, 1, 0, 589829, 1, 0, 589830, 1, 0, 589831, 1, 0, 589832, 1, 0, 589833, 1, 0, 589834, 1, 0, 589835, 1, 0, 589836, 1, 0, 589837, 1, 0, 589838, 1, 0, 589839, 1, 0, 589840, 1, 0, 589841, 1, 0, 655360, 1, 1, 655361, 1, 1, 655362, 1, 1, 655363, 1, 1, 655364, 1, 1, 655365, 1, 1, 655366, 1, 1, 655367, 1, 1, 655368, 1, 1, 655369, 1, 1, 655370, 1, 1, 655371, 1, 1, 655372, 1, 1, 655373, 1, 1, 655374, 1, 1, 655375, 1, 1, 655376, 1, 1, 655377, 1, 1, 720896, 1, 2, 720897, 1, 2, 720898, 1, 2, 720899, 1, 2, 720900, 1, 2, 720901, 1, 2, 720902, 1, 2, 720903, 1, 2, 720904, 1, 2, 720905, 1, 2, 720906, 1, 2, 720907, 1, 2, 720908, 1, 2, 720909, 1, 2, 720910, 1, 2, 720911, 1, 2, 720912, 1, 2, 720913, 1, 2, 786449, 1, 1, 786448, 1, 1, 786447, 1, 1, 786446, 1, 1, 786445, 1, 1, 786444, 1, 1, 786443, 1, 1, 786442, 1, 1, 786441, 1, 1, 786440, 1, 1, 786439, 1, 1, 786438, 1, 1, 786437, 1, 1, 786436, 1, 1, 786435, 1, 1, 786434, 1, 1, 786433, 1, 1, 786432, 1, 1)
