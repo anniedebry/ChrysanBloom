@@ -1,7 +1,7 @@
 [gd_scene load_steps=107 format=3 uid="uid://b2qukp0b3a8vg"]
 
-[ext_resource type="Script" path="res://SceneChange.gd" id="1_10c62"]
 [ext_resource type="Texture2D" uid="uid://b2a2wd0fxts5o" path="res://Sprites/Floors/simple-spruce-hardwood.png" id="1_ivlch"]
+[ext_resource type="Script" path="res://Scripts/SceneChange.gd" id="1_r7cnm"]
 [ext_resource type="Texture2D" uid="uid://pnefhmok7u07" path="res://Sprites/Floors/red-tiles.png" id="2_45bdx"]
 [ext_resource type="Texture2D" uid="uid://b2c5cktcj5ciq" path="res://Sprites/Walls/green-stripe-wallpaper.png" id="3_qfv25"]
 [ext_resource type="Texture2D" uid="uid://chlm4uiks8owk" path="res://Sprites/Walls/yellow-strip-wallpaper.png" id="4_oww26"]
@@ -412,7 +412,7 @@ size = Vector2(58, 26.5)
 y_sort_enabled = true
 position = Vector2(572, 437)
 scale = Vector2(2, 2)
-script = ExtResource("1_10c62")
+script = ExtResource("1_r7cnm")
 current_scene = "DahliaHouseMainArea"
 scene_change_to = "res://Scenes/DahliaRoom.tscn"
 
