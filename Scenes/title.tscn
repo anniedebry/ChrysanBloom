@@ -1,3 +1,17 @@
-[gd_scene format=3 uid="uid://pjxr2s4umttm"]
+[gd_scene load_steps=3 format=3 uid="uid://pjxr2s4umttm"]
+
+[ext_resource type="Texture2D" uid="uid://bwfs1qm1b46jn" path="res://Sprites/Flower.png" id="1_l0hb2"]
+[ext_resource type="Script" path="res://Scenes/TitleBackgroundMovement.gd" id="2_x6vt6"]
 
 [node name="Title" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 1163.0
+offset_bottom = 657.0
+color = Color(0.952941, 0.729412, 1, 1)
+
+[node name="FlowerBackground" type="Sprite2D" parent="."]
+position = Vector2(389, 484)
+scale = Vector2(3.56042, 3.49259)
+texture = ExtResource("1_l0hb2")
+script = ExtResource("2_x6vt6")
