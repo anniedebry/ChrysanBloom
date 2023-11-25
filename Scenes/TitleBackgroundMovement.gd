@@ -5,13 +5,10 @@ extends Sprite2D
 var move_timer : float = 0.0
 var pixels_moved : int = 0
 var move_interval : float = 2.0
-#var move_duration : float = 0.79899
 var pixels_to_move : int = 113
 var move_distance : int = 1
 var original_position : Vector2
 var animation_started : bool = false
-
-#28 pixels
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -19,7 +16,7 @@ func _ready():
 	original_position = position
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	
 	if animation_started == false:
 		position.x += move_distance
@@ -35,7 +32,7 @@ func _process(delta: float) -> void:
 
 	# Check if it's time to repeat the animation
 	if pixels_to_move <= pixels_moved:
-		# Reset the sprite's position after 10 seconds
+		# Reset the sprite's position
 		position = original_position
 		pixels_moved = 0
 		

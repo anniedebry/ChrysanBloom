@@ -1,28 +1,28 @@
 [gd_scene load_steps=40 format=3 uid="uid://c4sryvnijoiv3"]
 
-[ext_resource type="Texture2D" uid="uid://ybjasu30erlu" path="res://Sprites/Floors/white-tiles.png" id="1_hexj8"]
-[ext_resource type="Texture2D" uid="uid://bnlwkv7pke0ah" path="res://Sprites/Walls/beige-walls.png" id="2_fjjf4"]
-[ext_resource type="Texture2D" uid="uid://bny85mgo0y4nu" path="res://Sprites/Borders/White/below-right-top-wall-white.png" id="3_0qd5t"]
-[ext_resource type="Texture2D" uid="uid://326e7kbx1md1" path="res://Sprites/Borders/White/straight-below-top-wal-whitel.png" id="4_vjf3r"]
-[ext_resource type="Texture2D" uid="uid://belbjplpr8div" path="res://Sprites/Borders/White/straight-left-side-white-border.png" id="5_askhx"]
-[ext_resource type="Texture2D" uid="uid://cc7dlqq03qkht" path="res://Sprites/Borders/White/straight-right-side-white.png" id="6_apeaa"]
-[ext_resource type="Texture2D" uid="uid://dsyjf1n3hmrvy" path="res://Sprites/Borders/White/straight-upper-top-white.png" id="7_anbl8"]
-[ext_resource type="Texture2D" uid="uid://cr1u75dqvw6tb" path="res://Sprites/Borders/White/upper-left-top-wall-white2.png" id="8_5yqrq"]
-[ext_resource type="Texture2D" uid="uid://dctcbfusghe0d" path="res://Sprites/Borders/White/upper-left-top-wall-white.png" id="9_qxxxv"]
-[ext_resource type="Texture2D" uid="uid://c1bgfboehn7af" path="res://Sprites/Borders/White/upper-right-top-wall-white.png" id="10_x68l3"]
-[ext_resource type="Texture2D" uid="uid://cop6q2wcmv4t0" path="res://Sprites/WallDecor/white-door.png" id="11_tddk6"]
+[ext_resource type="Texture2D" uid="uid://ybjasu30erlu" path="res://Assets/Sprites/Floors/white-tiles.png" id="1_kt03f"]
+[ext_resource type="Texture2D" uid="uid://bnlwkv7pke0ah" path="res://Assets/Sprites/Walls/beige-walls.png" id="2_6eadb"]
+[ext_resource type="Texture2D" uid="uid://bny85mgo0y4nu" path="res://Assets/Sprites/Borders/White/below-right-top-wall-white.png" id="3_66e17"]
+[ext_resource type="Texture2D" uid="uid://326e7kbx1md1" path="res://Assets/Sprites/Borders/White/straight-below-top-wal-whitel.png" id="4_103rj"]
+[ext_resource type="Texture2D" uid="uid://belbjplpr8div" path="res://Assets/Sprites/Borders/White/straight-left-side-white-border.png" id="5_4x207"]
+[ext_resource type="Texture2D" uid="uid://cc7dlqq03qkht" path="res://Assets/Sprites/Borders/White/straight-right-side-white.png" id="6_5ixl0"]
+[ext_resource type="Texture2D" uid="uid://dsyjf1n3hmrvy" path="res://Assets/Sprites/Borders/White/straight-upper-top-white.png" id="7_fk82s"]
+[ext_resource type="Texture2D" uid="uid://cr1u75dqvw6tb" path="res://Assets/Sprites/Borders/White/upper-left-top-wall-white2.png" id="8_40djl"]
+[ext_resource type="Texture2D" uid="uid://dctcbfusghe0d" path="res://Assets/Sprites/Borders/White/upper-left-top-wall-white.png" id="9_ui77g"]
+[ext_resource type="Texture2D" uid="uid://c1bgfboehn7af" path="res://Assets/Sprites/Borders/White/upper-right-top-wall-white.png" id="10_4x1ig"]
+[ext_resource type="Texture2D" uid="uid://cop6q2wcmv4t0" path="res://Assets/Sprites/WallDecor/white-door.png" id="11_yl8ih"]
 [ext_resource type="PackedScene" uid="uid://3p2o0v4lasb" path="res://Dahlia.tscn" id="12_c0uu2"]
-[ext_resource type="Texture2D" uid="uid://1qd0xihh0xtd" path="res://Sprites/Furniture/bathtub-white.png" id="13_olxii"]
-[ext_resource type="Texture2D" uid="uid://cc644qk76oord" path="res://Sprites/Furniture/double-bathroom-sink-spruce.png" id="14_my7r7"]
-[ext_resource type="Texture2D" uid="uid://cr7ynjcpttmrv" path="res://Sprites/WallDecor/Bathroom-med-cabinet.png" id="15_cupnu"]
-[ext_resource type="Texture2D" uid="uid://dgx657ggo8eg4" path="res://Sprites/Furniture/sage-bathroom-mat.png" id="16_bg2uu"]
-[ext_resource type="Texture2D" uid="uid://c2iyvihqq84q7" path="res://Sprites/WallDecor/sage-face-towel-hanging.png" id="17_fxtwy"]
-[ext_resource type="Texture2D" uid="uid://brjsqnydyn4t2" path="res://Sprites/Furniture/toilet.png" id="18_hbvom"]
-[ext_resource type="Texture2D" uid="uid://dev5fnttpfgpu" path="res://Sprites/Furniture/toilet-paper.png" id="19_f0nuq"]
-[ext_resource type="Texture2D" uid="uid://bs4xqm6hechpp" path="res://Sprites/Plants/spath-plant.png" id="20_vw2cr"]
+[ext_resource type="Texture2D" uid="uid://1qd0xihh0xtd" path="res://Assets/Sprites/Furniture/bathtub-white.png" id="13_8wgdh"]
+[ext_resource type="Texture2D" uid="uid://cc644qk76oord" path="res://Assets/Sprites/Furniture/double-bathroom-sink-spruce.png" id="14_anru6"]
+[ext_resource type="Texture2D" uid="uid://cr7ynjcpttmrv" path="res://Assets/Sprites/WallDecor/Bathroom-med-cabinet.png" id="15_5amwg"]
+[ext_resource type="Texture2D" uid="uid://dgx657ggo8eg4" path="res://Assets/Sprites/Furniture/sage-bathroom-mat.png" id="16_3jbap"]
+[ext_resource type="Texture2D" uid="uid://c2iyvihqq84q7" path="res://Assets/Sprites/WallDecor/sage-face-towel-hanging.png" id="17_edqa6"]
+[ext_resource type="Texture2D" uid="uid://brjsqnydyn4t2" path="res://Assets/Sprites/Furniture/toilet.png" id="18_tvqc3"]
+[ext_resource type="Texture2D" uid="uid://dev5fnttpfgpu" path="res://Assets/Sprites/Furniture/toilet-paper.png" id="19_ifhq1"]
+[ext_resource type="Texture2D" uid="uid://bs4xqm6hechpp" path="res://Assets/Sprites/Plants/spath-plant.png" id="20_f3ti3"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_npdve"]
-texture = ExtResource("1_hexj8")
+texture = ExtResource("1_kt03f")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
 
@@ -31,7 +31,7 @@ tile_size = Vector2i(32, 32)
 sources/0 = SubResource("TileSetAtlasSource_npdve")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_p147x"]
-texture = ExtResource("2_fjjf4")
+texture = ExtResource("2_6eadb")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
 0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
@@ -48,7 +48,7 @@ physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_p147x")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8wxsu"]
-texture = ExtResource("3_0qd5t")
+texture = ExtResource("3_66e17")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
 0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
@@ -56,7 +56,7 @@ texture_region_size = Vector2i(32, 32)
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -16, 16, -16, 16, 16, -16, 16)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_v7du7"]
-texture = ExtResource("4_vjf3r")
+texture = ExtResource("4_103rj")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
 0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
@@ -64,7 +64,7 @@ texture_region_size = Vector2i(32, 32)
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(16, 16, -16, 16, -16, 6.25, 16, 5.75)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_fbarb"]
-texture = ExtResource("5_askhx")
+texture = ExtResource("5_4x207")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
 0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
@@ -72,7 +72,7 @@ texture_region_size = Vector2i(32, 32)
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(16, 16, 8.875, 16, 9.375, -16, 16, -16)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_b1cp5"]
-texture = ExtResource("6_apeaa")
+texture = ExtResource("6_5ixl0")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
 0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
@@ -80,7 +80,7 @@ texture_region_size = Vector2i(32, 32)
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9.125, 16, -16, 16, -16, -16, -8.875, -16)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_47o0k"]
-texture = ExtResource("7_anbl8")
+texture = ExtResource("7_fk82s")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
 0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
@@ -88,7 +88,7 @@ texture_region_size = Vector2i(32, 32)
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(16, -6.25, -16, -6.5, -16, -16, 16, -16)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qrqik"]
-texture = ExtResource("8_5yqrq")
+texture = ExtResource("8_40djl")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
 0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
@@ -96,7 +96,7 @@ texture_region_size = Vector2i(32, 32)
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, 16, -16, -16, 16, -16, 16, -6.5, -9.125, -6.75, -9.125, 16)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_aa74r"]
-texture = ExtResource("9_qxxxv")
+texture = ExtResource("9_ui77g")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
 0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
@@ -104,7 +104,7 @@ texture_region_size = Vector2i(32, 32)
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, 16, -16, -16, -9.375, -16, -9.375, 6.25, 16, 6, 16, 16)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_q87ds"]
-texture = ExtResource("10_x68l3")
+texture = ExtResource("10_4x1ig")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
 0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
@@ -191,7 +191,7 @@ layer_0/tile_data = PackedInt32Array(524299, 0, 0, 524298, 1, 0, 524297, 1, 0, 5
 [node name="Door" type="Sprite2D" parent="."]
 position = Vector2(320, 89.6)
 scale = Vector2(1.253, 1.2)
-texture = ExtResource("11_tddk6")
+texture = ExtResource("11_yl8ih")
 
 [node name="Dahlia" parent="." instance=ExtResource("12_c0uu2")]
 position = Vector2(258.5, 195)
@@ -205,7 +205,7 @@ shape = SubResource("RectangleShape2D_4ybd5")
 [node name="BathSprite" type="Sprite2D" parent="Bath"]
 position = Vector2(189, 261)
 scale = Vector2(1.71875, 1.65625)
-texture = ExtResource("13_olxii")
+texture = ExtResource("13_8wgdh")
 
 [node name="Sink" type="CharacterBody2D" parent="."]
 
@@ -217,27 +217,27 @@ shape = SubResource("RectangleShape2D_003uj")
 z_index = 2
 position = Vector2(205.5, 118)
 scale = Vector2(1.32813, 1.44444)
-texture = ExtResource("14_my7r7")
+texture = ExtResource("14_anru6")
 
 [node name="MedicineCabnit" type="Sprite2D" parent="."]
 position = Vector2(205.5, 74.5)
 scale = Vector2(1.77083, 1.30556)
-texture = ExtResource("15_cupnu")
+texture = ExtResource("15_5amwg")
 
 [node name="SageRug" type="Sprite2D" parent="."]
 position = Vector2(205.5, 164.25)
 scale = Vector2(1.32812, 1.10937)
-texture = ExtResource("16_bg2uu")
+texture = ExtResource("16_3jbap")
 
 [node name="TowelOne" type="Sprite2D" parent="."]
 position = Vector2(259, 87)
 scale = Vector2(0.859375, 0.859375)
-texture = ExtResource("17_fxtwy")
+texture = ExtResource("17_edqa6")
 
 [node name="TowelTwo" type="Sprite2D" parent="."]
 position = Vector2(152.5, 87)
 scale = Vector2(0.859375, 0.859375)
-texture = ExtResource("17_fxtwy")
+texture = ExtResource("17_edqa6")
 
 [node name="Toilet" type="CharacterBody2D" parent="."]
 z_index = 4
@@ -245,7 +245,7 @@ z_index = 4
 [node name="ToiletSprite" type="Sprite2D" parent="Toilet"]
 position = Vector2(337, 265)
 scale = Vector2(1.32813, 1.35938)
-texture = ExtResource("18_hbvom")
+texture = ExtResource("18_tvqc3")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Toilet"]
 position = Vector2(337, 264.25)
@@ -254,13 +254,13 @@ shape = SubResource("RectangleShape2D_xhmn6")
 [node name="ToiletPaper" type="Sprite2D" parent="."]
 position = Vector2(373.25, 240.75)
 scale = Vector2(0.96875, 0.96875)
-texture = ExtResource("19_f0nuq")
+texture = ExtResource("19_ifhq1")
 
 [node name="Spath" type="CharacterBody2D" parent="."]
 
 [node name="SpathSprite" type="Sprite2D" parent="Spath"]
 position = Vector2(361.5, 113.5)
-texture = ExtResource("20_vw2cr")
+texture = ExtResource("20_f3ti3")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Spath"]
 position = Vector2(360.75, 133.75)

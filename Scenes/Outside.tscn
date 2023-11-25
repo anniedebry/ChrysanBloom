@@ -1,12 +1,12 @@
 [gd_scene load_steps=11 format=3 uid="uid://bo8xtmjh0da15"]
 
 [ext_resource type="PackedScene" uid="uid://3p2o0v4lasb" path="res://Dahlia.tscn" id="1_8suxu"]
-[ext_resource type="Texture2D" uid="uid://dfxnmxdyhi231" path="res://Sprites/Floors/sidewalk.png" id="2_cn8hd"]
-[ext_resource type="Texture2D" uid="uid://b20djgyr2cslk" path="res://Sprites/Floors/GrassTilemap.png" id="3_4fo3w"]
-[ext_resource type="Texture2D" uid="uid://w51sbxyvdq6c" path="res://Sprites/Floors/sidewalk_road_tilemap.png" id="4_4l7y1"]
+[ext_resource type="Texture2D" uid="uid://dfxnmxdyhi231" path="res://Assets/Sprites/Floors/sidewalk.png" id="2_xrb6m"]
+[ext_resource type="Texture2D" uid="uid://b20djgyr2cslk" path="res://Assets/Sprites/Floors/GrassTilemap.png" id="3_61l1s"]
+[ext_resource type="Texture2D" uid="uid://w51sbxyvdq6c" path="res://Assets/Sprites/Floors/sidewalk_road_tilemap.png" id="4_oysvr"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lgvte"]
-texture = ExtResource("2_cn8hd")
+texture = ExtResource("2_xrb6m")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
 
@@ -15,7 +15,7 @@ tile_size = Vector2i(32, 32)
 sources/0 = SubResource("TileSetAtlasSource_lgvte")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vyggi"]
-texture = ExtResource("3_4fo3w")
+texture = ExtResource("3_61l1s")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
 1:0/0 = 0
@@ -34,7 +34,7 @@ tile_size = Vector2i(32, 32)
 sources/0 = SubResource("TileSetAtlasSource_vyggi")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ystks"]
-texture = ExtResource("4_4l7y1")
+texture = ExtResource("4_oysvr")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
 1:0/0 = 0

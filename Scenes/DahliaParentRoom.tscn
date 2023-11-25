@@ -1,30 +1,30 @@
 [gd_scene load_steps=46 format=3 uid="uid://b6xij3tiq68fg"]
 
-[ext_resource type="Texture2D" uid="uid://b2a2wd0fxts5o" path="res://Sprites/Floors/simple-spruce-hardwood.png" id="1_baoi8"]
-[ext_resource type="Texture2D" uid="uid://dukv6fmfntqv2" path="res://Sprites/Walls/red-floral-wallpaper.png" id="2_6t2dj"]
-[ext_resource type="Texture2D" uid="uid://pbacs27pmlpy" path="res://Sprites/Borders/straight-right-top-wall.png" id="3_ebuw7"]
-[ext_resource type="Texture2D" uid="uid://2ib68j1hr73n" path="res://Sprites/Borders/border-bottom-left-corner.png" id="4_udfyh"]
-[ext_resource type="Texture2D" uid="uid://c8b2uagbat1we" path="res://Sprites/Borders/upper-left-top-wall.png" id="5_d6xt8"]
-[ext_resource type="Texture2D" uid="uid://b5s1301gaq34l" path="res://Sprites/Borders/upper-right-top-wall.png" id="6_d2xfj"]
-[ext_resource type="Texture2D" uid="uid://ccefnq04q52jo" path="res://Sprites/Borders/straight-upper-top-wall.png" id="7_ee24n"]
-[ext_resource type="Texture2D" uid="uid://bcqq5mrn8dkug" path="res://Sprites/Borders/straight-left-top-wall.png" id="8_ifwkj"]
-[ext_resource type="Texture2D" uid="uid://bo1m5tc0ijth8" path="res://Sprites/Borders/straight-below-top-wall.png" id="9_rbfml"]
-[ext_resource type="Texture2D" uid="uid://dkhm44vkfcne0" path="res://Sprites/Borders/below-right-top-wall.png" id="10_2g0bb"]
-[ext_resource type="Texture2D" uid="uid://2ov2432oaa0i" path="res://Sprites/Borders/below-left-top-wall.png" id="11_d0x0j"]
-[ext_resource type="Texture2D" uid="uid://drkyy0jva7cx5" path="res://Sprites/Borders/border-bottom-right-corner.png" id="12_hy7sw"]
+[ext_resource type="Texture2D" uid="uid://b2a2wd0fxts5o" path="res://Assets/Sprites/Floors/simple-spruce-hardwood.png" id="1_0opa0"]
+[ext_resource type="Texture2D" uid="uid://dukv6fmfntqv2" path="res://Assets/Sprites/Walls/red-floral-wallpaper.png" id="2_b4jvy"]
+[ext_resource type="Texture2D" uid="uid://pbacs27pmlpy" path="res://Assets/Sprites/Borders/straight-right-top-wall.png" id="3_7ov5a"]
+[ext_resource type="Texture2D" uid="uid://2ib68j1hr73n" path="res://Assets/Sprites/Borders/border-bottom-left-corner.png" id="4_sus8a"]
+[ext_resource type="Texture2D" uid="uid://c8b2uagbat1we" path="res://Assets/Sprites/Borders/upper-left-top-wall.png" id="5_hv24f"]
+[ext_resource type="Texture2D" uid="uid://b5s1301gaq34l" path="res://Assets/Sprites/Borders/upper-right-top-wall.png" id="6_1cm54"]
+[ext_resource type="Texture2D" uid="uid://ccefnq04q52jo" path="res://Assets/Sprites/Borders/straight-upper-top-wall.png" id="7_fng68"]
+[ext_resource type="Texture2D" uid="uid://bcqq5mrn8dkug" path="res://Assets/Sprites/Borders/straight-left-top-wall.png" id="8_wo53x"]
+[ext_resource type="Texture2D" uid="uid://bo1m5tc0ijth8" path="res://Assets/Sprites/Borders/straight-below-top-wall.png" id="9_dejct"]
+[ext_resource type="Texture2D" uid="uid://dkhm44vkfcne0" path="res://Assets/Sprites/Borders/below-right-top-wall.png" id="10_qtj5q"]
+[ext_resource type="Texture2D" uid="uid://2ov2432oaa0i" path="res://Assets/Sprites/Borders/below-left-top-wall.png" id="11_2ivx0"]
+[ext_resource type="Texture2D" uid="uid://drkyy0jva7cx5" path="res://Assets/Sprites/Borders/border-bottom-right-corner.png" id="12_ncm0j"]
 [ext_resource type="PackedScene" uid="uid://3p2o0v4lasb" path="res://Dahlia.tscn" id="13_bjfar"]
-[ext_resource type="Texture2D" uid="uid://bv8qgton8iop1" path="res://Sprites/Furniture/green-bed-forward.png" id="14_jgkiu"]
-[ext_resource type="Texture2D" uid="uid://dhntsnf86tgoo" path="res://Sprites/Furniture/bed-side-table.png" id="15_rm8md"]
-[ext_resource type="Texture2D" uid="uid://ccn3nr6imugy5" path="res://Sprites/Furniture/clothes-closet-spruce.png" id="16_dt4wm"]
-[ext_resource type="Texture2D" uid="uid://b3r5xv2wjdy58" path="res://Sprites/Furniture/beige-complex-rug.png" id="17_td0bc"]
-[ext_resource type="Texture2D" uid="uid://c183qsc3att77" path="res://Sprites/WallDecor/white-window-light.png" id="18_woxia"]
-[ext_resource type="Texture2D" uid="uid://ckd7pcqxn5tf2" path="res://Sprites/Furniture/beige-small-lamp.png" id="19_wjnmn"]
-[ext_resource type="Texture2D" uid="uid://cn7ck8txeo3hr" path="res://Sprites/WallDecor/dried-plants-on-a-string.png" id="20_r7mpu"]
-[ext_resource type="Texture2D" uid="uid://bs4xqm6hechpp" path="res://Sprites/Plants/spath-plant.png" id="21_nipf5"]
-[ext_resource type="Texture2D" uid="uid://df1pt5fhkmw8k" path="res://Sprites/Plants/monstera-plant.png" id="22_2jhue"]
+[ext_resource type="Texture2D" uid="uid://bv8qgton8iop1" path="res://Assets/Sprites/Furniture/green-bed-forward.png" id="14_jqs4m"]
+[ext_resource type="Texture2D" uid="uid://dhntsnf86tgoo" path="res://Assets/Sprites/Furniture/bed-side-table.png" id="15_pfw2m"]
+[ext_resource type="Texture2D" uid="uid://ccn3nr6imugy5" path="res://Assets/Sprites/Furniture/clothes-closet-spruce.png" id="16_s1ma1"]
+[ext_resource type="Texture2D" uid="uid://b3r5xv2wjdy58" path="res://Assets/Sprites/Furniture/beige-complex-rug.png" id="17_qae8i"]
+[ext_resource type="Texture2D" uid="uid://c183qsc3att77" path="res://Assets/Sprites/WallDecor/white-window-light.png" id="18_om3h1"]
+[ext_resource type="Texture2D" uid="uid://ckd7pcqxn5tf2" path="res://Assets/Sprites/Furniture/beige-small-lamp.png" id="19_wijkr"]
+[ext_resource type="Texture2D" uid="uid://cn7ck8txeo3hr" path="res://Assets/Sprites/WallDecor/dried-plants-on-a-string.png" id="20_up16t"]
+[ext_resource type="Texture2D" uid="uid://bs4xqm6hechpp" path="res://Assets/Sprites/Plants/spath-plant.png" id="21_hmj6q"]
+[ext_resource type="Texture2D" uid="uid://df1pt5fhkmw8k" path="res://Assets/Sprites/Plants/monstera-plant.png" id="22_jh3kn"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wvk4n"]
-texture = ExtResource("1_baoi8")
+texture = ExtResource("1_0opa0")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
 
@@ -33,7 +33,7 @@ tile_size = Vector2i(32, 32)
 sources/0 = SubResource("TileSetAtlasSource_wvk4n")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_sv61u"]
-texture = ExtResource("2_6t2dj")
+texture = ExtResource("2_b4jvy")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
 0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
@@ -50,7 +50,7 @@ physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_sv61u")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jxrpf"]
-texture = ExtResource("3_ebuw7")
+texture = ExtResource("3_7ov5a")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
 0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
@@ -58,7 +58,7 @@ texture_region_size = Vector2i(32, 32)
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(8.125, -16, 16, -16, 16, 16, 8.125, 16)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4vhtp"]
-texture = ExtResource("4_udfyh")
+texture = ExtResource("4_sus8a")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
 0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
@@ -66,7 +66,7 @@ texture_region_size = Vector2i(32, 32)
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, 5.75, -8.625, 6, -8.875, 16, -16, 16)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ssyjx"]
-texture = ExtResource("5_d6xt8")
+texture = ExtResource("5_hv24f")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
 0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
@@ -74,7 +74,7 @@ texture_region_size = Vector2i(32, 32)
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8.625, 16, -16, 16, -16, -16, 16, -16, 16, -5.5, -8.375, -5.75)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_l8tgi"]
-texture = ExtResource("6_d2xfj")
+texture = ExtResource("6_1cm54")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
 0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
@@ -82,7 +82,7 @@ texture_region_size = Vector2i(32, 32)
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(8.375, -5.25, -16, -5.75, -16, -16, 16, -16, 16, 16, 8.125, 16)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_re0f3"]
-texture = ExtResource("7_ee24n")
+texture = ExtResource("7_fng68")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
 0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
@@ -90,7 +90,7 @@ texture_region_size = Vector2i(32, 32)
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -16, 16, -16, 16, -5.25, -16, -5.75)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gj35g"]
-texture = ExtResource("8_ifwkj")
+texture = ExtResource("8_wo53x")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
 0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
@@ -98,7 +98,7 @@ texture_region_size = Vector2i(32, 32)
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -16, -9.125, -16, -8.875, 16, -16, 16)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ah1ar"]
-texture = ExtResource("9_rbfml")
+texture = ExtResource("9_dejct")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
 0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
@@ -106,7 +106,7 @@ texture_region_size = Vector2i(32, 32)
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, 5, 16, 4.75, 16, 16, -16, 16)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_fbt6j"]
-texture = ExtResource("10_2g0bb")
+texture = ExtResource("10_qtj5q")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
 0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
@@ -114,7 +114,7 @@ texture_region_size = Vector2i(32, 32)
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, 5.5, 8.375, 5.5, 8.625, -16, 16, -16, 16, 16, -16, 16)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ljdag"]
-texture = ExtResource("11_d0x0j")
+texture = ExtResource("11_2ivx0")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
 0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
@@ -122,7 +122,7 @@ texture_region_size = Vector2i(32, 32)
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -16, -8.875, -16, -8.875, 5.25, 16, 5.5, 16, 16, -16, 16)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_xmsbg"]
-texture = ExtResource("12_hy7sw")
+texture = ExtResource("12_ncm0j")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
 0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
@@ -227,7 +227,7 @@ shape = SubResource("RectangleShape2D_kkqeb")
 z_index = 3
 position = Vector2(286.5, 142)
 scale = Vector2(1.36328, 1.26875)
-texture = ExtResource("14_jgkiu")
+texture = ExtResource("14_jqs4m")
 
 [node name="BedSideTableLeft" type="CharacterBody2D" parent="."]
 
@@ -235,7 +235,7 @@ texture = ExtResource("14_jgkiu")
 z_index = 3
 position = Vector2(221, 127.5)
 scale = Vector2(1.23438, 1.3125)
-texture = ExtResource("15_rm8md")
+texture = ExtResource("15_pfw2m")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="BedSideTableLeft"]
 position = Vector2(221, 137)
@@ -250,7 +250,7 @@ shape = SubResource("RectangleShape2D_3v4k6")
 [node name="BedSideTableSprite" type="Sprite2D" parent="BedSideTableRight"]
 position = Vector2(352, 127.5)
 scale = Vector2(1.234, 1.313)
-texture = ExtResource("15_rm8md")
+texture = ExtResource("15_pfw2m")
 
 [node name="Closet" type="CharacterBody2D" parent="."]
 z_index = 3
@@ -262,33 +262,33 @@ shape = SubResource("RectangleShape2D_40xj2")
 
 [node name="ClosetSprite" type="Sprite2D" parent="Closet"]
 position = Vector2(393, 206.5)
-texture = ExtResource("16_dt4wm")
+texture = ExtResource("16_s1ma1")
 
 [node name="Rug" type="Sprite2D" parent="."]
 position = Vector2(287.5, 206)
 scale = Vector2(1.28125, 1.21875)
-texture = ExtResource("17_td0bc")
+texture = ExtResource("17_qae8i")
 
 [node name="WindowLeft" type="Sprite2D" parent="."]
 position = Vector2(221, 76)
-texture = ExtResource("18_woxia")
+texture = ExtResource("18_om3h1")
 
 [node name="WindowRight" type="Sprite2D" parent="."]
 position = Vector2(352, 76)
-texture = ExtResource("18_woxia")
+texture = ExtResource("18_om3h1")
 
 [node name="LeftLamp" type="Sprite2D" parent="."]
 z_index = 3
 position = Vector2(221, 106.5)
-texture = ExtResource("19_wjnmn")
+texture = ExtResource("19_wijkr")
 
 [node name="RightLamp" type="Sprite2D" parent="."]
 position = Vector2(352.5, 106.5)
-texture = ExtResource("19_wjnmn")
+texture = ExtResource("19_wijkr")
 
 [node name="HangingHerbs" type="Sprite2D" parent="."]
 position = Vector2(285.5, 58)
-texture = ExtResource("20_r7mpu")
+texture = ExtResource("20_up16t")
 
 [node name="Spath" type="CharacterBody2D" parent="."]
 
@@ -298,7 +298,7 @@ shape = SubResource("RectangleShape2D_d35wr")
 
 [node name="SpathSprite" type="Sprite2D" parent="Spath"]
 position = Vector2(393, 115)
-texture = ExtResource("21_nipf5")
+texture = ExtResource("21_hmj6q")
 
 [node name="Monstera" type="CharacterBody2D" parent="."]
 
@@ -308,7 +308,7 @@ shape = SubResource("RectangleShape2D_f3urg")
 
 [node name="MonsteraSprite" type="Sprite2D" parent="Monstera"]
 position = Vector2(184.5, 116)
-texture = ExtResource("22_2jhue")
+texture = ExtResource("22_jh3kn")
 
 [node name="ExitRoom" type="Area2D" parent="."]
 script = SubResource("GDScript_uy00s")
