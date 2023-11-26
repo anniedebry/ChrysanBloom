@@ -1,7 +1,17 @@
-[gd_scene load_steps=3 format=3 uid="uid://pjxr2s4umttm"]
+[gd_scene load_steps=9 format=3 uid="uid://pjxr2s4umttm"]
 
 [ext_resource type="Texture2D" uid="uid://bwfs1qm1b46jn" path="res://Assets/Sprites/Flower.png" id="1_ysqtp"]
 [ext_resource type="Script" path="res://Scenes/TitleBackgroundMovement.gd" id="2_x6vt6"]
+[ext_resource type="FontFile" uid="uid://b60ragb3eogcy" path="res://Assets/TypewriterInkedRegular-lgwPZ.ttf" id="3_ftg10"]
+[ext_resource type="Texture2D" uid="uid://cqg0syega4awy" path="res://Assets/TitleButtonChrysanBloom.png" id="5_e2jic"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_4jxn0"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_oj1q3"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_7sv4w"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_f84kl"]
 
 [node name="Title" type="Node2D"]
 
@@ -15,3 +25,60 @@ position = Vector2(389, 484)
 scale = Vector2(3.56042, 3.49259)
 texture = ExtResource("1_ysqtp")
 script = ExtResource("2_x6vt6")
+
+[node name="LoadButton" type="Button" parent="."]
+offset_left = 814.0
+offset_top = 325.0
+offset_right = 1059.0
+offset_bottom = 429.0
+theme_override_colors/icon_hover_color = Color(1, 1, 1, 1)
+theme_override_colors/icon_hover_pressed_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_ftg10")
+theme_override_font_sizes/font_size = 34
+theme_override_styles/normal = SubResource("StyleBoxEmpty_4jxn0")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_oj1q3")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_7sv4w")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_f84kl")
+keep_pressed_outside = true
+text = "Load"
+icon = ExtResource("5_e2jic")
+icon_alignment = 1
+expand_icon = true
+
+[node name="NewGameButton" type="Button" parent="."]
+offset_left = 814.0
+offset_top = 194.0
+offset_right = 1059.0
+offset_bottom = 298.0
+theme_override_colors/icon_hover_color = Color(1, 1, 1, 1)
+theme_override_colors/icon_hover_pressed_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_ftg10")
+theme_override_font_sizes/font_size = 34
+theme_override_styles/normal = SubResource("StyleBoxEmpty_4jxn0")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_oj1q3")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_7sv4w")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_f84kl")
+keep_pressed_outside = true
+text = "New Game"
+icon = ExtResource("5_e2jic")
+icon_alignment = 1
+expand_icon = true
+
+[node name="SettingsButton" type="Button" parent="."]
+offset_left = 814.0
+offset_top = 456.0
+offset_right = 1059.0
+offset_bottom = 560.0
+theme_override_colors/icon_hover_color = Color(1, 1, 1, 1)
+theme_override_colors/icon_hover_pressed_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_ftg10")
+theme_override_font_sizes/font_size = 34
+theme_override_styles/normal = SubResource("StyleBoxEmpty_4jxn0")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_oj1q3")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_7sv4w")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_f84kl")
+keep_pressed_outside = true
+text = "Settings"
+icon = ExtResource("5_e2jic")
+icon_alignment = 1
+expand_icon = true
