@@ -18,8 +18,6 @@ config/icon="res://icon.svg"
 [autoload]
 
 Global="*res://Scripts/global.gd"
-SceneTransition="*res://Scripts/scene_transition.gd"
-SceneChangeDetection="*res://Scripts/scene_change_detection.gd"
 
 [rendering]
 
