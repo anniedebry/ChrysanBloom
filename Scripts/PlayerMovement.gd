@@ -74,6 +74,3 @@ func play_animation(movement):
 			anim.play("walk_up")
 		elif movement == 0:
 			anim.play("idle_up")
-
-#func onareaentered(_area: Area2D):
-#	pass
