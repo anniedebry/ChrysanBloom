@@ -1,4 +1,4 @@
-[gd_scene load_steps=40 format=3 uid="uid://c4sryvnijoiv3"]
+[gd_scene load_steps=39 format=3 uid="uid://c4sryvnijoiv3"]
 
 [ext_resource type="Texture2D" uid="uid://ybjasu30erlu" path="res://Assets/Sprites/Floors/white-tiles.png" id="1_kt03f"]
 [ext_resource type="Texture2D" uid="uid://bnlwkv7pke0ah" path="res://Assets/Sprites/Walls/beige-walls.png" id="2_6eadb"]
@@ -135,33 +135,6 @@ size = Vector2(42, 32.5)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_pusii"]
 size = Vector2(28.5, 20.5)
 
-[sub_resource type="GDScript" id="GDScript_uy00s"]
-script/source = "extends Area2D
-
-#@export var scene_to_load: String = \"\"
-##initial character position
-#var character_position: Vector2 = Vector2(0, 0)
-#@export var change_character_position: Vector2
-#@export var direction_facing: String = \"\"
-#signal scene_changed(change_character_position: Vector2)
-#
-#func _on_body_entered(body):
-#	if body is CharacterBody2D:
-#		if scene_to_load != \"\":
-#			change_character_position = body.global_position
-#			get_tree().change_scene_to_file(scene_to_load)
-#
-##getters
-#
-#func get_character_position() -> Vector2:
-#	return change_character_position
-#
-#func get_character_direction() -> String:
-#	return direction_facing
-
-
-"
-
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_b44xe"]
 size = Vector2(43.5, 20)
 
@@ -267,10 +240,7 @@ position = Vector2(360.75, 133.75)
 shape = SubResource("RectangleShape2D_pusii")
 
 [node name="LeaveBathroom" type="Area2D" parent="."]
-script = SubResource("GDScript_uy00s")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="LeaveBathroom"]
 position = Vector2(318.75, 123.5)
 shape = SubResource("RectangleShape2D_b44xe")
-
-[connection signal="body_entered" from="LeaveBathroom" to="LeaveBathroom" method="_on_body_entered"]

@@ -1,6 +1,7 @@
 extends Node
 
-var current_scene = "DahliaRoom"
+var current_scene = ""
+var next_scene = ""
 var transition_scene = false
 var game_first_loadin = true
 

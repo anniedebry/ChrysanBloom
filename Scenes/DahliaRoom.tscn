@@ -1,6 +1,5 @@
-[gd_scene load_steps=83 format=3 uid="uid://cb5k4ygr14bek"]
+[gd_scene load_steps=81 format=3 uid="uid://cb5k4ygr14bek"]
 
-[ext_resource type="Script" path="res://Scripts/SceneChange.gd" id="1_w103j"]
 [ext_resource type="Texture2D" uid="uid://b2a2wd0fxts5o" path="res://Assets/Sprites/Floors/simple-spruce-hardwood.png" id="2_3120k"]
 [ext_resource type="Texture2D" uid="uid://dd81gjh76ho1s" path="res://Assets/Sprites/Walls/simple-purple-flower-wall.png" id="3_c2shc"]
 [ext_resource type="Texture2D" uid="uid://2ov2432oaa0i" path="res://Assets/Sprites/Borders/below-left-top-wall.png" id="4_xhjl7"]
@@ -43,7 +42,6 @@
 [ext_resource type="Texture2D" uid="uid://sanfts6qnfbn" path="res://Assets/Sprites/Plants/arrow-head-plant.png" id="41_w3y4x"]
 [ext_resource type="PackedScene" uid="uid://3p2o0v4lasb" path="res://Dahlia.tscn" id="42_qc1ko"]
 [ext_resource type="Texture2D" uid="uid://df1pt5fhkmw8k" path="res://Assets/Sprites/Plants/monstera-plant.png" id="42_vsek4"]
-[ext_resource type="PackedScene" uid="uid://dwctpymw0avxp" path="res://Scenes/scene_transition.tscn" id="44_h1yh4"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_u4by0"]
 texture = ExtResource("2_3120k")
@@ -316,9 +314,6 @@ size = Vector2(26.5, 35)
 y_sort_enabled = true
 position = Vector2(574, 391)
 scale = Vector2(2, 2)
-script = ExtResource("1_w103j")
-current_scene = "DahliaRoom"
-scene_change_to = "res://Scenes/DahliaHouseMainArea.tscn"
 
 [node name="Floor" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_hi6p3")
@@ -485,8 +480,3 @@ position = Vector2(0.5, -31)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="DahliaRoomEntrance"]
 position = Vector2(149, 48)
 shape = SubResource("RectangleShape2D_hvd4n")
-
-[node name="scene_transition" parent="DahliaRoomEntrance" instance=ExtResource("44_h1yh4")]
-
-[connection signal="body_entered" from="DahliaRoomEntrance" to="." method="_on_dahlia_room_entrance_body_entered"]
-[connection signal="body_exited" from="DahliaRoomEntrance" to="." method="_on_dahlia_room_entrance_body_exited"]
